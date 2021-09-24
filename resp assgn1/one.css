@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    /* height:400px; */
+    width: 100%;
+    background-color: brown;
+    display: inline-block;
+}
+
+.child{
+    height: 400px;
+    width: 19.2%;
+
+    background-color: chocolate;
+    display: inline-block;
+}
+
+@media (max-width:420px){
+    .child{
+        width: 100%;
+    }
+}
